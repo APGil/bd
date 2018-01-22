@@ -1,0 +1,100 @@
+<!DOCTYPE.html>
+
+
+<html>
+    <head>
+        <title>
+            Cuestionario de intereses.
+        </title>
+        <link rel="stylesheet" type="text/css" href="css/bd.css">
+    </head>
+
+    <body>
+        <div id="survey" class="info">
+            <h1>
+                Prova 1
+            </h1>
+
+            <p>
+                Primer apellido:<br>
+                <input type="text" name="ln1" value="">
+                <br> 
+                <br>
+                Segundo apellido:<br>
+                <input type="text" name="ln2" value="">
+                <br> 
+                <br>
+                Nombre:<br>
+                <input type="text" name="fn" value="">
+                <br>
+                <br>
+            </p>  
+            <h2>
+                Saber (conocimiento)
+            </h2>
+            <p>    
+                
+                <input type="text" name="s1" class="ss1" value="">
+                <br>
+                <br>
+                <input type="text" name="s2" class="ss2" value="">
+                <br>
+                <br>
+                <input type="text" name="s3" class="ss3" value="">
+                <br>
+                <br>
+                <div id="next"></div>
+
+                <button id="more" onclick="m1()">+</button>
+                <button>-</button>
+            </p>
+
+            <input type="submit" value="Enviar" onclick="graf()">
+            
+            <!---->
+                <!--<br>
+            <br>-->
+        </div>
+        
+        
+        <div id="graph" class="no_graph">
+            <div id="sab1">
+                <div id="op1" class="bb1">
+                    <div id="optxt1"></div>
+                </div>
+                <div id="op2" class="bb2">
+                    <div id="optxt2"></div>
+                </div>
+                <div id="op3" class="bb3">
+                    <div id="optxt3"></div>
+                </div>
+                <div id="op4" class="bb4">
+                    <div id="optxt4"></div>
+                </div>
+            </div>
+            
+            <div id="sab2">
+                <div id="op11" class="bb11"></div>
+                <div id="op22" class="bb22"></div>
+                <div id="op33" class="bb33"></div>
+                <div id="op44" class="bb44"></div>
+            </div>
+            
+            <div id="sab3">
+                <div id="op111" class="bb111"></div>
+                <div id="op222" class="bb222"></div>
+                <div id="op333" class="bb333"></div>
+                <div id="op444" class="bb444"></div>
+            </div>
+        </div>
+        
+        <!--- SCRIPTS --->
+        <!-- JQUERY -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script> 
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <!--Altres scripts-->
+        <script type="application/javascript" src="js/bd.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,172 @@
+#sab1{
+    top: 500px;
+    left: 500px;
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid;
+    background-color: darkorange;
+    opacity: 0.9;
+}
+
+#op1{
+    top: 450px;
+    left: 450px;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid;
+    background-color: darkorange;
+    opacity: 0.9;
+}
+
+#op2{
+    top: 600px;
+    left: 600px;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid;
+    background-color: darkorange;
+    opacity: 0.9;
+}
+
+#op3{
+    top: 450px;
+    left: 590px;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid;
+    background-color: darkorange;
+    opacity: 0.9;
+}
+
+#op4{
+    top: 604px;
+    left: 442px;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid;
+    background-color: darkorange;
+    opacity: 0.9;
+}
+
+#sab2{
+    top: 200px;
+    left: 500px;
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid;
+    background-color: seagreen;
+    opacity: 0.9;
+}
+
+#op11{
+    top: 150px;
+    left: 450px;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid;
+    background-color: seagreen;
+    opacity: 0.9;
+}
+
+#op22{
+    top: 150px;
+    left: 600px;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid;
+    background-color: seagreen;
+    opacity: 0.9;
+}
+
+#op33{
+    top: 314px;
+    left: 462px;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid;
+    background-color: seagreen;
+    opacity: 0.9;
+}
+
+#op44{
+    top: 314px;
+    left: 600px;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid;
+    background-color: seagreen;
+    opacity: 0.9;
+}
+
+.no_inf{
+    display: none;
+}
+
+.info{
+    display: inline-block;
+}
+
+.no_graph{
+    display: none;
+}
+
+.bubble{
+    display: inline-block;
+}
+
+#optxt1{
+    width: 98px;
+    height: 30px;
+    top: 487px;
+    position: fixed;
+    font-size: 20px;
+    text-align: center;
+}
+
+#optxt2{
+    position: fixed;
+    top: 634px;
+    width: 98px;
+    height: 30px;
+    font-size: 20px;
+    left: 602px;
+    text-align: center;
+}
+
+#optxt3{
+    width: 98px;
+    height: 30px;
+    top: 487px;
+    position: fixed;
+    font-size: 20px;
+    text-align: center;
+}
+
+#optxt4{
+    width: 98px;
+    height: 30px;
+    top: 634px;
+    position: fixed;
+    font-size: 20px;
+    text-align: center;
+}
